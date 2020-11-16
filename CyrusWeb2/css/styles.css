@@ -85,7 +85,10 @@ body {
   
   /********** Large devices only **********/
   @media (min-width: 1200px) {
-  
+  .container.jumbotron{
+      height: 700px;
+      overflow: auto;
+  }
   }
   
   /********** Medium devices only **********/
