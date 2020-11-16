@@ -7,7 +7,7 @@ body {
   
   /** HEADER **/
   #header-nav {
-    background-color: #f6b319;
+    background-color: #dbd5c6;
     border-radius: 0;
     border: 0;
   }
@@ -48,10 +48,10 @@ body {
   }
   
   #nav-list {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   #nav-list a {
-    color: #951C49;
+    color: #000;
     text-align: center;
   }
   #nav-list a:hover {
@@ -141,13 +141,24 @@ body {
       background-color: #e2ddd0;
       color: #951c49;
     }
-    #xs-deliver {
-      margin-top: 5px;
-      font-size: .7em;
+    #our-menu {
+      margin: 5px 0 5px 5px;
+      font-size: 1.7em;
       letter-spacing: .1em;
       text-transform: uppercase;
+      border: #0e0d0d;
+      width:100%;
+      height: 100px;
+      background-color: #f6b319;
     }
     /* End Header */
   
   }
-  
+  #main-content{
+      color:#000;
+  }
+  #about-chicken h1{
+      text-align: center;
+      font-weight: bold;
+      font-size: 170%;
+  }
